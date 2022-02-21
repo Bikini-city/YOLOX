@@ -9,6 +9,7 @@ class ResultPlot:
 
     # OS parent directory
     parent_dir = "/content/YOLOX/"
+    # Directory 'YOLOX_output/Graph has to be exists.
 
     # date/time
     execution_date: datetime

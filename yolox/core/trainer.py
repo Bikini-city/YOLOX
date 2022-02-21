@@ -59,7 +59,7 @@ class Trainer:
         self.file_name = os.path.join(exp.output_dir, args.experiment_name)
 
         # Test purpose (Collection of mAP)
-        self.result_plot = ResultPlot()
+        self.result_plot = ResultPlot()     # Plot object.
         self.list_mAP = []
 
         if self.rank == 0:
